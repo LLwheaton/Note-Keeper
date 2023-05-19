@@ -1,10 +1,11 @@
 import React from "react";
 import "./styles.css";
+import NoteIcon from '@mui/icons-material/Note';
 
 function Header() {
     return (
         <header>
-            <h1>Note Keeper</h1>
+            <h1><NoteIcon /> Note Keeper</h1>
         </header>);
 }
 
